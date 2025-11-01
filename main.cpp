@@ -28,7 +28,10 @@ void menu() {
 }
 
 int main() {
-    
+    /*int* pz;
+pz = new int;
+char* pc = (char*)pz;
+delete pc;*/
     TimePoint* time1 = nullptr;
     TimePoint* time2 = nullptr;
     TimePoint* result = nullptr;
@@ -108,4 +111,5 @@ int main() {
     if (result != nullptr) deleteTime(result);
     
     return 0;
+
 }
