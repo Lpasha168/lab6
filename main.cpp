@@ -113,3 +113,12 @@ delete pc;*/
     return 0;
 
 }
+
+//int x = 42;
+//char* char_ptr = reinterpret_cast<char*>(&x);
+//
+//// Можем прочитать отдельные байты:
+//std::cout << (int)char_ptr[0] << " "; // Первый байт: 42
+//std::cout << (int)char_ptr[1] << " "; // Второй байт: 0  
+//std::cout << (int)char_ptr[2] << " "; // Третий байт: 0
+//std::cout << (int)char_ptr[3] << " "; // Четвертый байт: 0
